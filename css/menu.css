@@ -133,6 +133,7 @@ header div h1 a{
 
 .social-media i {
     margin: 3rem 3rem;
+    font-size: 3rem;
 }
 
 /* spacer */
@@ -335,7 +336,7 @@ button[type="submit"] {
         align-items: center;
         color: black;
         
-        border-bottom: solid black;
+        /*border-bottom: solid black;*/
         
     }
     .content1 div{
@@ -346,6 +347,16 @@ button[type="submit"] {
     }
     .content1 p {
         text-align: center;
+    }
+    .line{
+        width: 40%;
+        height: 3px;
+        background-color: black;
+        margin: 0, 50px;
+    }
+    .lineUp{
+        display: flex;
+        justify-content: center;
     }
 
 
